@@ -19,7 +19,7 @@ function App() {
         <Route path='/dashBoard' element={<DashBoard></DashBoard>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-        <Route path='/about' element={<About></About>}></Route>
+        <Route path='/about' element={<About></About>}></Route>2S
       </Routes>
     </div>
   );

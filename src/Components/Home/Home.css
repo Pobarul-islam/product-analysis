@@ -1,0 +1,19 @@
+
+.firstSection{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-top: 50px;
+    height: 700px;
+}
+.i-name{
+    margin-top: 20%;
+    width: 80%;
+    
+    margin-left: 20px;
+    word-wrap:normal;
+}
+.homeImg img{
+    width: 70%;
+    height: 80%;
+    
+}
