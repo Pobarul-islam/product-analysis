@@ -1,6 +1,6 @@
 import {} from "bootstrap";
 import React, { useState } from "react";
-import { Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
+import {  Bar, BarChart, Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
 
 const DashBoard = () => {
   const data = [
@@ -48,19 +48,35 @@ const DashBoard = () => {
     },
   ];
 
-    return (
-      
-    <LineChart width={500} height={500} data={data}>
-      <Line dataKey={"Price"}></Line>
-      <Line dataKey={"name"}></Line>
-      <Line dataKey={"Investment"}></Line>
-      <Line dataKey={"Profit"}></Line>
-      <XAxis dataKey={"name"}></XAxis>
-      <Tooltip></Tooltip>
-      <YAxis></YAxis>
-    </LineChart>
+  return (
+    <div className="mt-5 ml-5 d-flex">
+      <div className="ml-4 ">
+        <h4>Investment Result with Line Chart</h4>
+        <LineChart width={500} height={500} data={data}>
+          <Line dataKey={"Price"}></Line>
+          <Line dataKey={"name"}></Line>
+          <Line dataKey={"Investment"}></Line>
+          <Line dataKey={"Profit"}></Line>
+          <XAxis dataKey={"name"}></XAxis>
+          <Tooltip></Tooltip>
+          <YAxis></YAxis>
+        </LineChart>
+      </div>
+      <div className="">
+        <h4>Investment Result with Bar Chart</h4>
+        <BarChart width={500} height={500} data={data}>
+          <Bar dataKey={"Price"} fill="#8884d8"></Bar>
+          <Bar dataKey={"name"} fill="#8884d8"></Bar>
+          <Bar dataKey={"Investment"} fill="#8884d8"></Bar>
+          <Bar dataKey={"Profit"} fill="#8884d8"></Bar>
+
+          <XAxis dataKey={"name"}></XAxis>
+
+          <Tooltip></Tooltip>
+          <YAxis></YAxis>
+        </BarChart>
+      </div>
+    </div>
   );
 };
-
-
 export default DashBoard;
