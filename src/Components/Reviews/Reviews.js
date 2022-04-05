@@ -2,8 +2,8 @@ import React from "react";
 
 const Reviews = () => {
   return (
-    <div>
-      <h1 cla>Coustomer Reviews</h1>
+    <div className="mt-5 mb-3">
+      <h3>Coustomer Reviews</h3>
       <div className="container">
         <div className="row mt-5">
           <div className="col">
