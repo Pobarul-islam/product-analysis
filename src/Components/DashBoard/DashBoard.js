@@ -66,7 +66,7 @@ const DashBoard = () => {
         </div>
       </div>
       <div className="">
-        <h5>Investment Result with Bar Chart</h5>
+        <h4>Investment Result with Bar Chart</h4>
         <BarChart width={500} height={500} data={data}>
           <Bar dataKey={"Price"} fill="#8884d8"></Bar>
           <Bar dataKey={"name"} fill="#8884d8"></Bar>

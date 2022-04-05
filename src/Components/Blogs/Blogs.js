@@ -16,7 +16,7 @@ const Blogs = () => {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              Accordion Item #1
+              What is Context API ?
             </button>
           </h2>
           <div
@@ -26,12 +26,10 @@ const Blogs = () => {
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default,
-              until the collapse plugin adds the appropriate classes that we use to style each
-              element. These classes control the overall appearance, as well as the showing and
-              hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-              our default variables. It's also worth noting that just about any HTML can go within
-              the <code>.accordion-body</code>, though the transition does limit overflow.
+              The React Context API is a way for a React application to really create worldwide
+              factors that can be passed around. This is the choice to "prop boring" or moving props
+              from grandparent to kid to parent, etc. Setting is additionally promoted as a simpler,
+              lighter way to deal with state the board utilizing Redux.
             </div>
           </div>
         </div>
@@ -45,7 +43,7 @@ const Blogs = () => {
               aria-expanded="false"
               aria-controls="collapseTwo"
             >
-              Accordion Item #2
+              What is Cemantic Tag ?
             </button>
           </h2>
           <div
@@ -55,41 +53,38 @@ const Blogs = () => {
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default,
-              until the collapse plugin adds the appropriate classes that we use to style each
-              element. These classes control the overall appearance, as well as the showing and
-              hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-              our default variables. It's also worth noting that just about any HTML can go within
-              the <code>.accordion-body</code>, though the transition does limit overflow.
+              Semantic HTML or semantic markup is HTML that acquaints significance with the website
+              page instead of just show. For instance, a tag shows that the encased text is a
+              passage. This is both semantic and presentational on the grounds that individuals
+              realize what passages are, and programs know how to show them.
             </div>
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
+          <h2 class="accordion-header" id="headingTwo">
             <button
               class="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseThree"
+              data-bs-target="#collapseTwo"
               aria-expanded="false"
-              aria-controls="collapseThree"
+              aria-controls="collapseTwo"
             >
-              Accordion Item #3
+              Inline Block and Inline Block Element Deffrent ?
             </button>
           </h2>
           <div
-            id="collapseThree"
+            id="collapseTwo"
             class="accordion-collapse collapse"
-            aria-labelledby="headingThree"
+            aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default,
-              until the collapse plugin adds the appropriate classes that we use to style each
-              element. These classes control the overall appearance, as well as the showing and
-              hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-              our default variables. It's also worth noting that just about any HTML can go within
-              the <code>.accordion-body</code>, though the transition does limit overflow.
+              <strong> An inline block is put inline</strong> (ie. on a similar line as neighboring
+              substance), however it acts as a square. Its inline yet we can add width stature and
+              so forth
+              <strong> A block-level element </strong> always takes up the full width available
+              (stretches out to the left and right as far as it can).
             </div>
           </div>
         </div>

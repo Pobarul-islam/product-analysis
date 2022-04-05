@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+* I will create components and start the others file
+* Create Nanvbar File 
+* Create Not Found File
+* Create Chart and Card in home pahe 3 card and reviws file 6 card.
+* at last i create question components.
