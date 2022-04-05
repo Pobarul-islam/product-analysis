@@ -11,15 +11,15 @@ import Reviews from './Components/Reviews/Reviews';
 function App() {
   return (
     <div className="App">
-    <Header></Header>
+      <Header></Header>
       <Routes>
-        <Route path='/' element={<Header></Header>}></Route>
-        <Route path='/home' element={<Home></Home>}></Route>
-        <Route path='/reviews' element={<Reviews></Reviews>}></Route>
-        <Route path='/dashBoard' element={<DashBoard></DashBoard>}></Route>
-        <Route path='*' element={<NotFound></NotFound>}></Route>
-        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-        <Route path='/about' element={<About></About>}></Route>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/home" element={<Home></Home>}></Route>
+        <Route path="/reviews" element={<Reviews></Reviews>}></Route>
+        <Route path="/dashBoard" element={<DashBoard></DashBoard>}></Route>
+        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/about" element={<About></About>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );
